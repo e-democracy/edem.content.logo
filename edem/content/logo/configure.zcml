@@ -3,17 +3,36 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   xmlns:five="http://namespaces.zope.org/five">
 
-    
-  <browser:resource
+  <!-- Logo declarations for the 2014 skin -->
+   <browser:resource
     name="logo-20120906.png" 
     file="browser/images/logo.png" 
-    layer="gs.skin.ogn.edem.interfaces.IEDemSkin" 
+    layer="edem.skin.interfaces.IEDemSkin" 
     permission="zope2.Public"/>
 
   <browser:resource
     name="logo-20091013.png" 
     file="browser/images/logo-20091013.png" 
-    layer="gs.skin.ogn.edem.interfaces.IEDemSkin" 
+    layer="edem.skin.interfaces.IEDemSkin" 
+    permission="zope2.Public"/>
+
+  <browser:resource name="favicon.ico" 
+    image="browser/images/edem-favicon-all-sizes.ico" 
+    layer="edem.skin.interfaces.IEDemSkin" 
+    permission="zope2.Public" />
+   
+
+  <!-- Logo declarations for the old skin -->
+  <browser:resource
+    name="logo-20120906.png" 
+    file="browser/images/logo.png" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemSkin"
+    permission="zope2.Public"/>
+
+  <browser:resource
+    name="logo-20091013.png" 
+    file="browser/images/logo-20091013.png" 
+    layer="gs.skin.ogn.edem.interfaces.IEDemSkin"
     permission="zope2.Public"/>
 
   <browser:resource name="favicon.ico" 
