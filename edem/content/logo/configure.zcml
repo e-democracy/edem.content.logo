@@ -31,7 +31,7 @@
   <!-- Logo declarations for the old skin -->
   <browser:resource
     name="logo-20120906.png" 
-    file="browser/images/logo-20130906.png" 
+    file="browser/images/logo-20120906.png" 
     layer="gs.skin.ogn.edem.interfaces.IEDemSkin"
     permission="zope2.Public"/>
 
