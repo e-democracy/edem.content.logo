@@ -5,8 +5,14 @@
 
   <!-- Logo declarations for the 2014 skin -->
    <browser:resource
+    name="logo-20131129"
+    file="browser/images/logo.png"
+    layer="edem.skin.interfaces.IEDemSkin"
+    permission="zope2.Public"/>
+
+   <browser:resource
     name="logo-20120906.png" 
-    file="browser/images/logo.png" 
+    file="browser/images/logo-20120906.png" 
     layer="edem.skin.interfaces.IEDemSkin" 
     permission="zope2.Public"/>
 
@@ -25,7 +31,7 @@
   <!-- Logo declarations for the old skin -->
   <browser:resource
     name="logo-20120906.png" 
-    file="browser/images/logo.png" 
+    file="browser/images/logo-20130906.png" 
     layer="gs.skin.ogn.edem.interfaces.IEDemSkin"
     permission="zope2.Public"/>
 
