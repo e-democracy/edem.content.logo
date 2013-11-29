@@ -5,7 +5,7 @@
 
   <!-- Logo declarations for the 2014 skin -->
    <browser:resource
-    name="logo-20131129"
+    name="logo-20131129.png"
     file="browser/images/logo.png"
     layer="edem.skin.interfaces.IEDemSkin"
     permission="zope2.Public"/>
